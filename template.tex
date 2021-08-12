@@ -1,0 +1,183 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Curriculum Vitae Timeline/CV
+% LaTeX Template
+% Version 1.0 (5/23/19)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and finally by
+% Augusto Cunha (contact@augustoicaro.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{twentysecondcv} % a4paper or latterpaper
+\usepackage{anyfontsize}
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{me.jpeg} % Profile picture
+
+\cvname{Moolshankar Tyagi} % Your name
+\cvjobtitle{Software Engineer 3} % Job title/career
+
+\cvdate{May 15, 1991} % Date of birth
+\cvaddress{Bangalore, India} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+91 8970277888} % Phone number
+\cvsite{} % Personal website
+\cvmail{moolshankartyagi@gmail.com} % Email address
+\cvgithub{moolshankar}
+\cvlinkedin{moolshankar} % Linkedin user account
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 Profile
+%----------------------------------------------------------------------------------------
+
+\profile{Profile}{7+ years of experience in full stack development, site reliability engineering, creating highly customized automation tools, monitoring dashboards, chat bots, distributed computing, CICD, configuration management, multi/hybrid cloud and disaster recovery setups .} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+%\aboutme{About Me}{Extensive background in computer graphics for the petroleum industry using applied mathematics. Areas of interest include Functional Programming Languages, Computational Origami, Application Development Using Open Source Tools, Computer Graphics, Image Processing, Machine Learning, and Geographic Information Systems. Linux enthusiast and admirer of the "open source" philosophy.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 5 (float)
+\skills{{Python/4.5},{Java/4.5},{Javascript/4},{Linux/4},{SQL - NoSQL/4},{Docker/4},{Kubernetes/3.5},{AWS/3.5},{Jenkins/4},{Linux containers/4},{GIT/4}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 5
+%\skillstext{}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+    \twentyitemtime{mainblue}{white}{Mar/2020}{Present}{Software Engineer 3}{Walmart Global Tech (Former Walmart labs), India/Bangalore}{\makeList{Inhouse tool development for Infra team to help achieve automation from web ui.;Design and Development continuous deployment tool for microservices which challenged existing paid service Harness.;Developed auto heal frameworks to recover instances automatically in case of any alerts.;Involved in creating Disaster recovery setups of microservices in case of any Datacenter failures.;Handling prod deployments for critical services and L3/L4 production support.}}
+    \twentyitemtime{mainblue}{mainblue}{Feb/2019}{Mar/2020}{Programmer Analyst}{Boeing India, India/Bangalore}{\makeList{Worked as Senior software developer to develop and maintain existing Java applications.;Contributed in plans to redesign and develop windows applications to web applications in order to make complete architecture cloud enabled.;Proposed and implemented GraphQL as primary technology for client-server communication in some modules.}}
+    \twentyitemtime{mainblue}{mainblue}{Jan/2017}{Feb/2019}{Application Developer - Infra}{BANKBAZAAR.COM, India/Bangalore}{\makeList{Designed and developed customized Devops UI tools on open source technologies like Elasticsearch, Hashicorp’s Vault and linux container (LXC 3.0).;Worked with Infosec team to design and develop workflow-based automation system to generate vulnerability reports based on ip range provided, which would help team to eliminate manual effort up-to 90\%.;Setup GraphQL server and developed web components to use advanced GraphQL features using Apollo api’s.;Worked on third party dialer’s integration with Bankbazaar CRM, its monitoring, alerting, maintenance activities, migration and troubleshooting.;Configuration management of services using Saltstack and Jinja templates.}}
+	\twentyitemtime{mainblue}{mainblue}{Feb/2014}{Dec/2016}{Senior Systems Engineer}{Infosys Limited, India/Bangalore}{\makeList{Trained in Mainframe technologies such as COBOL, JCL, CICS and DB2 and worked as AS400 developer in my initial days.;Self taught and switched to Java and Angular full stack development.;Developed and maintained Web application using Java, Angular JS, RESTful services and JPA for different insurance processes for almost one and half year.}}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+%	\twentyactualitemtime{mainblue}{white}{Aug/2018}{Present}{Ph.D. Field}{University}{Integer rutrum vitae urna tincidunt lacinia. Duis aliquet massa vestibulum, sollicitudin est vel, convallis ligula. Donec fermentum nibh purus, pulvinar tincidunt neque tempus in.}
+	\twentyitemtime{white}{white}{}{2009 - 2013}{B.Tech in Electrical and Electronics engineering}{}{Uttar Pradesh Technical University}
+	\twentyitemtime{white}{white}{}{2008}{Senior secondary school}{}{CBSE}
+	\twentyitemtime{white}{white}{}{2006}{High school}{}{CBSE}
+%	\twentyitemtime{mainblue}{mainblue}{Aug/2010}{Jul/2010}{B.Sc. Field}{University}{Integer rutrum vitae urna tincidunt lacinia. Duis aliquet massa vestibulum, sollicitudin est vel, convallis ligula. Donec fermentum nibh purus, pulvinar tincidunt neque tempus in.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+%\begin{twenty}
+%\twentyitem{2007-2010}{B.Sc. Field}{Univesity}{Integer rutrum vitae urna tincidunt lacinia. Duis aliquet massa vestibulum, sollicitudin est vel, convallis ligula. Donec fermentum nibh purus, pulvinar tincidunt neque tempus in.}
+%\twentyactualitem{2007-2010}{B.Sc. Field}{Univesity}{Integer rutrum vitae urna tincidunt lacinia. Duis aliquet massa vestibulum, sollicitudin est vel, convallis ligula. Donec fermentum nibh purus, pulvinar tincidunt neque tempus in.}
+%\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\section{Publications}
+
+%\begin{twentyshort} % Environment for a short list with no descriptions
+%	\twentyitemshort{1865}{Chapter One, Down the Rabbit Hole.}
+%	\twentyitemshort{1865}{Chapter Two, The Pool of Tears.}
+%	\twentyitemshort{1865}{Chapter Three,  The Caucus Race and a Long Tale.}
+%	\twentyitemshort{1865}{Chapter Four,  The Rabbit Sends a Little Bill.}
+%	\twentyitemshort{1865}{Chapter Five,  Advice from a Caterpillar.}
+	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\begin{twenty} % Environment for a short list with no descriptions
+%{1987}{}
+%    \twentyitem{1998}{All-Time Best Fantasy Novel before 1990.}{}{Some description.}
+%	\twentyitem{1987}{All-Time Best Fantasy Novel.}{}{Some description.}
+%	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+%\section{Qualifications}
+
+%\begin{itemize}
+%    \item Proficiency in Linux systems: CentOS, Debian, Ubuntu, Elementary OS.
+%    \item Experience in Bash, Python, C++, R, Vim, Subversion, Git, OpenGL.
+%    \item Experience using Docker and Singularity.
+%    \item Experience in scrum, Jira, Jenkins.
+%    \item Experience in remote access, network management, system administration.
+%    \item Experience in math, statics, algorithms, solving problems, supervised machine learning problems.
+    
+%\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
